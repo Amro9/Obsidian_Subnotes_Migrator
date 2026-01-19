@@ -1,6 +1,26 @@
 # Obsidian Subnotes Migrator
 
-Ein Python-Tool zum Verschieben oder Kopieren von Obsidian-Notizen zusammen mit allen referenzierten Notizen.
+Ein Tool zum Verschieben oder Kopieren von Obsidian-Notizen zusammen mit allen referenzierten Notizen.
+
+## 🎯 Zwei Versionen verfügbar
+
+### 🔌 Obsidian Plugin (EMPFOHLEN)
+
+**Direkter Einsatz in Obsidian!** Verschiebe Notizen mit einem Klick direkt in der Obsidian-App.
+
+👉 **[Plugin-Anleitung →](obsidian-plugin/README.md)**
+
+**Schnellstart:**
+1. Kopiere `obsidian-plugin/` nach `.obsidian/plugins/subnotes-migrator/`
+2. Baue das Plugin: `npm install && npm run build`
+3. Aktiviere das Plugin in Obsidian
+4. Öffne eine Notiz und drücke `Ctrl/Cmd + P` → "Aktuelle Notiz mit Referenzen verschieben"
+
+### 🐍 Python CLI-Tool
+
+Kommandozeilen-Tool für Batch-Operationen und Automatisierung.
+
+Siehe unten für Details ↓
 
 ## Funktionen
 

@@ -1,0 +1,10 @@
+{
+	"id": "subnotes-migrator",
+	"name": "Subnotes Migrator",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Verschiebt die aktuelle Notiz zusammen mit allen referenzierten Notizen in einen Zielordner.",
+	"author": "Amro9",
+	"authorUrl": "https://github.com/Amro9",
+	"isDesktopOnly": false
+}

@@ -1,0 +1,84 @@
+/* Folder Select Modal Styling */
+
+.folder-input-container {
+	margin: 20px 0;
+}
+
+.folder-label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: 500;
+}
+
+.folder-input {
+	width: 100%;
+	padding: 8px 12px;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 4px;
+	background-color: var(--background-primary);
+	color: var(--text-normal);
+	font-size: 14px;
+}
+
+.folder-input:focus {
+	outline: none;
+	border-color: var(--interactive-accent);
+	box-shadow: 0 0 0 2px var(--interactive-accent-hover);
+}
+
+.folder-suggestions {
+	max-height: 200px;
+	overflow-y: auto;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 4px;
+	margin-top: 8px;
+	background-color: var(--background-primary);
+}
+
+.folder-suggestion {
+	padding: 8px 12px;
+	cursor: pointer;
+	border-bottom: 1px solid var(--background-modifier-border);
+	transition: background-color 0.1s;
+}
+
+.folder-suggestion:last-child {
+	border-bottom: none;
+}
+
+.folder-suggestion:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.modal-button-container {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.modal-button-container button {
+	padding: 8px 16px;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.modal-button-container button.mod-cta {
+	background-color: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+
+.modal-button-container button.mod-cta:hover {
+	background-color: var(--interactive-accent-hover);
+}
+
+.modal-button-container button:not(.mod-cta) {
+	background-color: var(--background-modifier-border);
+	color: var(--text-normal);
+}
+
+.modal-button-container button:not(.mod-cta):hover {
+	background-color: var(--background-modifier-border-hover);
+}
